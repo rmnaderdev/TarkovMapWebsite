@@ -1,4 +1,4 @@
-namespace VueWebApplication;
+namespace TarkovMapWebsite;
 
 public class WeatherForecast
 {

@@ -1,4 +1,4 @@
-namespace VueWebApplication.Database.Entities;
+namespace TarkovMapWebsite.Database.Entities;
 
 public class Todo
 {

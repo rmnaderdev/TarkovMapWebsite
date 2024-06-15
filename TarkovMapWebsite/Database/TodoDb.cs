@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using VueWebApplication.Database.Entities;
+using TarkovMapWebsite.Database.Entities;
 
-namespace VueWebApplication.Database;
+namespace TarkovMapWebsite.Database;
 
 public class TodoDb(DbContextOptions<TodoDb> options) : DbContext(options)
 {
