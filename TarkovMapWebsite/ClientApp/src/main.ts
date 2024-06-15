@@ -6,13 +6,21 @@ import Home from "./pages/Home.vue";
 import {createRouter, createWebHistory} from "vue-router";
 import Toast from "vue-toastification";
 import About from "./pages/About.vue";
-import Todos from "./pages/Todos.vue";
+import Woods from "./pages/Woods.vue";
+import Interchange from "./pages/Interchange.vue";
+import Shoreline from "./pages/Shoreline.vue";
+import Factory from "./pages/Factory.vue";
+import StreetsOfTarkov from "./pages/StreetsOfTarkov.vue";
 
 // Router config
 const routes = [
     {path: '/', component: Home},
     {path: '/about', component: About},
-    {path: '/todos', component: Todos}
+    {path: '/woods', component: Woods},
+    {path: '/interchange', component: Interchange},
+    {path: '/shoreline', component: Shoreline},
+    {path: '/factory', component: Factory},
+    {path: '/streetsoftarkov', component: StreetsOfTarkov},
 ];
 
 const router = createRouter({

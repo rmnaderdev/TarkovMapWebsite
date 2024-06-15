@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import {RouterView} from "vue-router";
-import { IconHome, IconSettings, IconListCheck } from '@tabler/icons-vue';
+import { IconHome, IconSettings, IconMap } from '@tabler/icons-vue';
 </script>
 
 <template>
-  <div class="w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow">
+  <div class="w-full max-h-screen flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 grow">
     <div class="w-fixed w-full flex-shrink flex-grow-0 px-4 ">
       <div class="sticky top-0 p-4 bg-gray-100 rounded-xl w-full h-full">
         <ul class="flex sm:flex-col overflow-hidden content-center justify-center gap-2">
@@ -23,9 +23,37 @@ import { IconHome, IconSettings, IconListCheck } from '@tabler/icons-vue';
           </li>
           
           <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="todos">
-              <IconListCheck class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-                class="hidden sm:inline">Todos</span>
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="woods">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
+                class="hidden sm:inline">Woods</span>
+            </RouterLink>
+          </li>
+          
+          <li>
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="interchange">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
+              class="hidden sm:inline">Interchange</span>
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="shoreline">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
+              class="hidden sm:inline">Shoreline</span>
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="factory">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
+              class="hidden sm:inline">Factory</span>
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="streetsoftarkov">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
+              class="hidden sm:inline">Streets of Tarkov</span>
             </RouterLink>
           </li>
           
@@ -33,7 +61,7 @@ import { IconHome, IconSettings, IconListCheck } from '@tabler/icons-vue';
       </div>
     </div>
 
-    <main class="w-full flex-grow pt-1 px-3">
+    <main class="w-full  pt-1 px-3">
       <RouterView/>
     </main>
   </div>
