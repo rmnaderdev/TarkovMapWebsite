@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@tabler/icons-vue": "^3.5.0",
+    "ol": "^9.2.4",
+    "ol-contextmenu": "^5.4.0",
+    "ol-ext": "^4.0.18",
     "vue": "^3.4.21",
     "vue-router": "4",
-    "vue-toastification": "^2.0.0-rc.5"
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-openlayers": "^10.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

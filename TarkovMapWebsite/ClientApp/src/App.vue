@@ -61,7 +61,7 @@ import { IconHome, IconSettings, IconMap } from '@tabler/icons-vue';
       </div>
     </div>
 
-    <main class="w-full  pt-1 px-3">
+    <main class="w-full flex-shrink flex-grow-0 flex flex-col pt-1 px-3">
       <RouterView/>
     </main>
   </div>

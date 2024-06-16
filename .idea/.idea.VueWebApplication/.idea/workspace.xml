@@ -11,11 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a85dcda7-18e9-409e-a8c2-716dcca80333" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueWebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueWebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/components/MapContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/components/MapContainer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/pages/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/pages/Todos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/src/pages/Woods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TarkovMapWebsite/ClientApp/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718476698873</updated>
-      <workItem from="1718476699294" duration="8374000" />
+      <workItem from="1718476699294" duration="19218000" />
     </task>
     <servers />
   </component>

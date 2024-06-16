@@ -1,10 +1,14 @@
 import {createApp} from 'vue';
+import {createRouter, createWebHistory} from "vue-router";
+import OpenLayersMap from "vue3-openlayers";
+import Toast from "vue-toastification";
+
 import "vue-toastification/dist/index.css";
+import "vue3-openlayers/styles.css";
 import './style.css';
+
 import App from './App.vue';
 import Home from "./pages/Home.vue";
-import {createRouter, createWebHistory} from "vue-router";
-import Toast from "vue-toastification";
 import About from "./pages/About.vue";
 import Woods from "./pages/Woods.vue";
 import Interchange from "./pages/Interchange.vue";
@@ -32,4 +36,5 @@ const router = createRouter({
 const app = createApp(App)
 app.use(router);
 app.use(Toast);
+app.use(OpenLayersMap);
 app.mount('#app');
