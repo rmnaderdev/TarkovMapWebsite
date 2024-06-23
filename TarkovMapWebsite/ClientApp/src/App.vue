@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {RouterView} from "vue-router";
-import { IconHome, IconSettings, IconMap } from '@tabler/icons-vue';
+import { IconHome, IconMap } from '@tabler/icons-vue';
+import {Maps} from "./maps.ts";
 </script>
 
 <template>
@@ -8,52 +9,15 @@ import { IconHome, IconSettings, IconMap } from '@tabler/icons-vue';
     <div class="w-fixed w-full flex-shrink flex-grow-0 px-4 ">
       <div class="sticky top-0 p-4 bg-gray-100 rounded-xl w-full h-full">
         <ul class="flex sm:flex-col overflow-hidden content-center justify-center gap-2">
-          
           <li>
             <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="/">
               <IconHome class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span class="hidden sm:inline">Home</span>
             </RouterLink>
           </li>
-          
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="about">
-              <IconSettings class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-                class="hidden sm:inline">About</span>
-            </RouterLink>
-          </li>
-          
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="woods">
-              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-                class="hidden sm:inline">Woods</span>
-            </RouterLink>
-          </li>
-          
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="interchange">
-              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-              class="hidden sm:inline">Interchange</span>
-            </RouterLink>
-          </li>
 
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="shoreline">
-              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-              class="hidden sm:inline">Shoreline</span>
-            </RouterLink>
-          </li>
-
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="factory">
-              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-              class="hidden sm:inline">Factory</span>
-            </RouterLink>
-          </li>
-
-          <li>
-            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" to="streetsoftarkov">
-              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span
-              class="hidden sm:inline">Streets of Tarkov</span>
+          <li v-for="map in Maps" :key="map.name">
+            <RouterLink class="flex py-2 hover:bg-blue-400 rounded" exact-active-class="bg-blue-400" :to="map.link">
+              <IconMap class="w-7 sm:mx-2 mx-4 inline" stroke={2} /> <span class="hidden sm:inline">{{ map.navLinkName || map.name }}</span>
             </RouterLink>
           </li>
           

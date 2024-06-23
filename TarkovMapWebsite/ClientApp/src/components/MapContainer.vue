@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { computed, onMounted, reactive, ref } from "vue";
+import {MapCredit} from "../models/MapDefinition.ts";
 
 
 const props = defineProps<{
-  title: string;
   mapUrl: string;
+  mapCredit?: MapCredit;
 }>();
 
 const zoom = ref(2.5);
@@ -17,7 +18,7 @@ const projection = reactive({
   extent: extent
 });
 const image = ref<string | null>(null);
-const imgCopyright = ref("Map By <a target='_blank' href=\"http://www.re3mr.com\">RE3MR</a>");
+const imgCopyright = ref(props.mapCredit ? `Map By <a target='_blank' href="${props.mapCredit.creditLink}">${props.mapCredit.creditText}</a>` : null);
 
 onMounted(() => {
   const img = new Image();
@@ -35,9 +36,6 @@ const onZoomChange = (e: any) => {
 </script>
 
 <template>
-  <h1 class="page-heading">{{ props.title }}</h1>
-  <!--  <img class="object-contain" :src="props.mapUrl" alt="Tarkov Map" />-->
-
   <ol-map v-if="image"
     :loadTilesWhileAnimating="true"
     :loadTilesWhileInteracting="true"
