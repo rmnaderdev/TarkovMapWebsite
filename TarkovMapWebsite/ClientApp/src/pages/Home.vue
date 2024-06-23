@@ -13,10 +13,12 @@
   <div class="pl-6">
     <ul class="list-disc">
       <li>Add collapsable nav bar</li>
+      <li>Add more options for each location. Dropdown next to location title with maps from different creators.</li>
       <li>Be able to save zoom and position so the pages open to where you left off</li>
       <li>Make it look better</li>
       <li>Add better nav icons</li>
       <li>Change favicon</li>
+      <li>WiKi page links</li>
       <li class="line-through">Profit</li>
     </ul>
   </div>
