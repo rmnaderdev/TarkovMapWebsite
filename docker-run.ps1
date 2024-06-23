@@ -1,1 +1,1 @@
-docker run -it --rm -p 8080:8080 --name vue_web_application vuewebapplication
+docker run -it --rm -p 8080:8080 --name tarkovmapwebsite tarkovmapwebsite

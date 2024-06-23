@@ -1,1 +1,1 @@
-docker build -t vuewebapplication .
+docker build -t tarkovmapwebsite .

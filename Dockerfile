@@ -17,16 +17,16 @@ RUN apt-get install -y nodejs
 RUN npm install -g yarn
 
 FROM build_with_node AS build
-COPY ["VueWebApplication/VueWebApplication.csproj", "VueWebApplication/"]
-RUN dotnet restore "VueWebApplication/VueWebApplication.csproj"
+COPY ["TarkovMapWebsite/TarkovMapWebsite.csproj", "TarkovMapWebsite/"]
+RUN dotnet restore "TarkovMapWebsite/TarkovMapWebsite.csproj"
 COPY . .
-WORKDIR "/src/VueWebApplication"
-RUN dotnet build "VueWebApplication.csproj" -c Release -o /app/build
+WORKDIR "/src/TarkovMapWebsite"
+RUN dotnet build "TarkovMapWebsite.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "VueWebApplication.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "TarkovMapWebsite.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "VueWebApplication.dll"]
+ENTRYPOINT ["dotnet", "TarkovMapWebsite.dll"]
