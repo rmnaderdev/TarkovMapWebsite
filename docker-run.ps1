@@ -1,1 +1,1 @@
-docker run -it --rm -p 8080:8080 --name tarkovmapwebsite tarkovmapwebsite
+docker run -it --rm -p 8080:80 --name tarkovmapwebsite tarkovmapwebsite

@@ -1,7 +1,7 @@
 ARG NODE_VERSION=20.12.2
-FROM node:${NODE_VERSION}-alpine AS development
+FROM node:${NODE_VERSION}-alpine AS build
 # install simple http server for serving static content
-RUN npm install -g http-server
+RUN npm install -g serve
 # make the 'app' folder the current working directory
 WORKDIR /app
 # copy 'package.json' to install dependencies
@@ -12,5 +12,9 @@ RUN yarn
 COPY . .
 # build app for production with minification
 RUN yarn build
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
+
+
+FROM nginx AS production-stage
+RUN mkdir /app
+COPY --from=build /app/dist /app
+COPY nginx.conf /etc/nginx/nginx.conf
