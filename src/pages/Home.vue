@@ -14,7 +14,7 @@
     <ul class="list-disc">
       <li class="line-through">Add collapsable nav bar</li>
       <li>Add more options for each location. Dropdown next to location title with maps from different creators.</li>
-      <li>Be able to save zoom and position so the pages open to where you left off</li>
+      <li class="line-through">Be able to save zoom and position so the pages open to where you left off</li>
       <li class="line-through">Make it look better</li>
       <li class="line-through">Add better nav icons</li>
       <li>Change favicon</li>
