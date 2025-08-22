@@ -18,7 +18,7 @@ const mapCredits: { [name: string]: MapCredit } = {
 
 export const Maps: MapDefinition[] = [
     { name: "Ground Zero", img: groundZeroMap, link: "/ground_zero", credit: mapCredits["re3mr"] },
-    { name: "Streets of Tarkov (fuck this map, its hot garbage)", navLinkName: "Streets of Tarkov", img: streetsOfTarkovMap, link: "/streetsoftarkov", credit: mapCredits["re3mr"] },
+    { name: "Streets of Tarkov", navLinkName: "Streets of Tarkov", img: streetsOfTarkovMap, link: "/streetsoftarkov", credit: mapCredits["re3mr"] },
     { name: "Interchange", img: interchangeMap, link: "/interchange", credit: mapCredits["yundaz"] },
     { name: "Customs", img: customsMap, link: "/customs", credit: mapCredits["re3mr"] },
     { name: "Factory", img: factoryMap, link: "/factory", credit: mapCredits["vinnydiehl"] },

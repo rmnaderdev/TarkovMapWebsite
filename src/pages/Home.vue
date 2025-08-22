@@ -24,6 +24,12 @@
   </div>
   
   <p class="mt-8 font-light">Created by a dude who doesn't want to pay for MapGenie.</p>
+  <!-- GitHub Link -->
+  <p class="mt-2">
+    <a href="https://github.com/rmnaderdev/TarkovMapWebsite" target="_blank">
+      <img src="https://img.shields.io/github/stars/rmnaderdev/TarkovMapWebsite?style=social" alt="GitHub Stars">
+    </a>
+  </p>
 </template>
 
 <style scoped>
