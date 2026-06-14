@@ -1,0 +1,15 @@
+services:
+  tarkov-map:
+    image: registry.rmnad.net/tarkov-map-website:latest
+    ports:
+      - "3000:80"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+      update_config:
+        parallelism: 1
+        delay: 10s
+        order: start-first
