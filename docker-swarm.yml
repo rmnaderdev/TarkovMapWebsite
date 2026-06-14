@@ -13,3 +13,12 @@ services:
         parallelism: 1
         delay: 10s
         order: start-first
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.tarkovmapwebsite.rule=Host(`tarkov.rmnad.net`)"
+        - "traefik.http.routers.tarkovmapwebsite.entrypoints=websecure"
+        - "traefik.http.routers.tarkovmapwebsite.tls=true"
+        - "traefik.http.routers.tarkovmapwebsite.priority=1"
+        - "traefik.http.services.tarkovmapwebsite.loadbalancer.server.port=3000"
+        - "traefik.http.services.tarkovmapwebsite.loadbalancer.healthcheck.path=/"
+        - "traefik.http.services.tarkovmapwebsite.loadbalancer.healthcheck.interval=10s"
