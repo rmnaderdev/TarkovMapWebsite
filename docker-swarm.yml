@@ -3,7 +3,7 @@ networks:
     external: true
 
 services:
-  tarkov-map:
+  tarkov-map-website:
     image: registry.rmnad.net/tarkov-map-website:latest
     networks:
       - traefik-public

@@ -6,11 +6,8 @@ Basic Tarkov maps website written using Vue. I don't maintain this, just a fun p
 ## To deploy to docker
 
 ```bash
-# Build container
-docker build -t registry.rmnad.net/tarkov-map-website:latest .
-
-# Push to container registry
-docker push registry.rmnad.net/tarkov-map-website:latest
+# Build and push container
+docker buildx build --platform linux/amd64,linux/arm64 -t registry.rmnad.net/tarkov-map-website:latest --push .
 
 # Then redeploy in portainer
 ```
