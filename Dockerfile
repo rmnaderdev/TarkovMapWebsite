@@ -1,17 +1,18 @@
-ARG NODE_VERSION=20.12.2
-FROM node:${NODE_VERSION}-alpine AS build
+FROM node:24-alpine AS build
 # install simple http server for serving static content
 RUN npm install -g serve
+# enable pnpm via corepack
+RUN corepack enable
 # make the 'app' folder the current working directory
 WORKDIR /app
-# copy 'package.json' to install dependencies
-COPY package*.json ./
+# copy package manifests to install dependencies
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 # install dependencies
-RUN yarn
+RUN pnpm install --frozen-lockfile
 # copy files and folders to the current working directory (i.e. 'app' folder)
 COPY . .
 # build app for production with minification
-RUN yarn build
+RUN pnpm build
 
 
 FROM nginx AS production-stage
