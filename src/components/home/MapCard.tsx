@@ -10,7 +10,7 @@ export default function MapCard({ map }: { map: MapDefinition }) {
     >
       <div className="relative aspect-video w-full overflow-hidden">
         <Image
-          src={map.img}
+          src={map.thumbnail}
           alt={map.name}
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"

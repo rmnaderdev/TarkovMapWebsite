@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <h1 className="page-heading">Tarkov Maps</h1>
-      <p>Maps updated as of </p>
+      <p>Maps updated as of game version <b>1.0.6.0.46010</b></p>
       <p>Welcome to a Tarkov map site. It is very much a WIP.</p>
       <p className="mt-3">
         I created this site to make it easier to navigate between Tarkov maps
