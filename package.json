@@ -5,31 +5,30 @@
   "type": "module",
   "packageManager": "pnpm@11.10.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "serve out",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@tabler/icons-vue": "^3.5.0",
-    "@vueuse/core": "^10.11.0",
+    "@tabler/icons-react": "^3.5.0",
+    "next": "16.2.10",
     "ol": "^9.2.4",
-    "ol-contextmenu": "^5.4.0",
-    "ol-ext": "^4.0.18",
-    "pinia": "^2.1.7",
-    "vue": "^3.4.21",
-    "vue-router": "4",
-    "vue-toastification": "^2.0.0-rc.5",
-    "vue3-openlayers": "^10.0.1"
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "autoprefixer": "^10.4.19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
     "postcss": "^8.4.38",
     "prettier": "3.3.2",
+    "serve": "^14.2.0",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vite-plugin-mkcert": "^1.17.5",
-    "vue-tsc": "^2.0.6"
+    "typescript": "^5.2.2"
   }
 }

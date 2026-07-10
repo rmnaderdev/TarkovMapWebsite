@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  body {
+    @apply relative z-10 text-[rgba(255,255,255,0.87)] bg-base-950 text-base font-normal;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    @apply text-rust-400 hover:text-rust-500;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .page-heading {
+    @apply text-3xl md:text-5xl mb-4 font-extrabold text-rust-400;
+  }
+}
+
+/* Theme the OpenLayers controls/attribution to match the tactical palette */
+.ol-attribution,
+.ol-zoom,
+.ol-rotate,
+.ol-full-screen,
+.ol-zoomslider {
+  background-color: rgba(38, 41, 32, 0.85) !important;
+}
+
+.ol-attribution a,
+.ol-attribution ul {
+  color: rgb(211, 146, 90) !important;
+}
+
+.ol-control button {
+  background-color: rgba(74, 82, 64, 0.8) !important;
+}
+
+.ol-control button:hover,
+.ol-control button:focus {
+  background-color: rgba(184, 118, 58, 0.9) !important;
+}
