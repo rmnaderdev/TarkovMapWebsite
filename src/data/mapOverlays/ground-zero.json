@@ -1,0 +1,6959 @@
+{
+  "fetchedAt": "2026-07-11T00:16:23.223Z",
+  "transform": [
+    0.524,
+    167.3,
+    0.524,
+    65.1
+  ],
+  "coordinateRotation": 180,
+  "viewBox": [
+    2143,
+    3000
+  ],
+  "extracts": [
+    {
+      "id": "d6870dda31937ff93662ce903afe1099b24011a1",
+      "name": "Police Cordon V-Ex",
+      "faction": "pmc",
+      "position": {
+        "x": -19.5134068,
+        "y": 23.7110023,
+        "z": 114.942139
+      }
+    },
+    {
+      "id": "549ceec177747468ebe86bcfd5a486d1dce9ed64",
+      "name": "Emercom Checkpoint",
+      "faction": "shared",
+      "position": {
+        "x": 151.625,
+        "y": 24.662056,
+        "z": -97.45658
+      }
+    },
+    {
+      "id": "118fa7e3eae47190871eb4ea20d4f3ca2718b73f",
+      "name": "Scav Checkpoint (Co-op)",
+      "faction": "shared",
+      "position": {
+        "x": 25.2195644,
+        "y": 24.5091858,
+        "z": -79.5413742
+      }
+    },
+    {
+      "id": "ab623005251ffcd3603a5df2610917a998d9a17e",
+      "name": "Nakatani Basement Stairs",
+      "faction": "shared",
+      "position": {
+        "x": -16.1249924,
+        "y": 14.7620564,
+        "z": 335.063416
+      }
+    },
+    {
+      "id": "89ff19116feeafdf4a2b4e538cafb5364ffbe862",
+      "name": "Mira Ave (Flare)",
+      "faction": "pmc",
+      "position": {
+        "x": 218.225,
+        "y": 17.9920559,
+        "z": -38.5065842
+      }
+    },
+    {
+      "id": "122676fe448d426d085e9516114534966a69c3ff",
+      "name": "Tartowers Sales Office",
+      "faction": "pmc",
+      "position": {
+        "x": 190.804,
+        "y": 17.6449986,
+        "z": 133.388992
+      }
+    }
+  ],
+  "bossZones": [
+    {
+      "position": {
+        "x": 109.396805,
+        "y": 22.688652,
+        "z": 239.435822
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 22.2868042,
+        "y": 23.53865,
+        "z": 255.1308
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -60.1112,
+        "y": 24.19465,
+        "z": 37.58181
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 55.2668037,
+        "y": 14.0686512,
+        "z": -32.35419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 72.22681,
+        "y": 13.9586515,
+        "z": 159.3858
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 32.7768021,
+        "y": 22.6686516,
+        "z": 335.6558
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 73.69881,
+        "y": 14.1636515,
+        "z": 117.034813
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 98.94981,
+        "y": 22.87865,
+        "z": -85.03119
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 164.696808,
+        "y": 22.768652,
+        "z": -85.8841858
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 22.8788033,
+        "y": 23.53865,
+        "z": 253.499817
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 44.2268066,
+        "y": 23.30565,
+        "z": -104.874191
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -15.6471939,
+        "y": 23.87565,
+        "z": 101.716812
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 11.5208054,
+        "y": 23.48965,
+        "z": 156.3288
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 172.2468,
+        "y": 16.9886513,
+        "z": 9.425811
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 137.5668,
+        "y": 14.1126509,
+        "z": 61.81581
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 71.7568054,
+        "y": 14.1386509,
+        "z": 0.6758108
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 127.319809,
+        "y": 23.1926517,
+        "z": 195.125824
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -10.4581985,
+        "y": 23.982048,
+        "z": 19.6548119
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 8.986805,
+        "y": 23.48965,
+        "z": 158.425812
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 58.3678055,
+        "y": 23.4366512,
+        "z": 229.1268
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -12.6441956,
+        "y": 23.8186512,
+        "z": -59.9541855
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 163.6168,
+        "y": 22.768652,
+        "z": -88.24419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 73.880806,
+        "y": 14.1386509,
+        "z": 37.23281
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 17.0988045,
+        "y": 24.20565,
+        "z": 73.366806
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 180.1868,
+        "y": 16.21865,
+        "z": 128.1658
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 176.3018,
+        "y": 16.9956512,
+        "z": 10.2488108
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 72.76581,
+        "y": 14.2016516,
+        "z": 113.208809
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -49.8631973,
+        "y": 24.19465,
+        "z": 42.17581
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 74.6868057,
+        "y": 14.0086508,
+        "z": 160.9158
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 96.2568054,
+        "y": 22.87865,
+        "z": -85.19419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 133.4458,
+        "y": 14.1126509,
+        "z": 66.43681
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 18.5388031,
+        "y": 24.20565,
+        "z": 73.82181
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 130.6398,
+        "y": 14.1126509,
+        "z": 63.12081
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 45.6098022,
+        "y": 23.30565,
+        "z": -99.78419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -10.7931976,
+        "y": 23.982048,
+        "z": 16.7358112
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 72.74081,
+        "y": 14.1386509,
+        "z": 29.96981
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 57.717804,
+        "y": 23.4366512,
+        "z": 226.737823
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 112.2068,
+        "y": 22.688652,
+        "z": 220.925812
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -13.1111984,
+        "y": 23.87565,
+        "z": 98.92881
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 22.6368027,
+        "y": 23.53865,
+        "z": 257.9848
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 57.236805,
+        "y": 14.0986509,
+        "z": -31.15419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -60.6341934,
+        "y": 24.19465,
+        "z": 43.00981
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 11.1888046,
+        "y": 23.48965,
+        "z": 159.016815
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 17.0218048,
+        "y": 24.20565,
+        "z": 66.79081
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 57.486805,
+        "y": 14.0686512,
+        "z": -33.82419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 71.866806,
+        "y": 14.1386509,
+        "z": -13.0741882
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 36.1368027,
+        "y": 22.6686516,
+        "z": 334.6858
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -10.5931931,
+        "y": 23.982048,
+        "z": 22.86581
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 96.9698,
+        "y": 22.87865,
+        "z": -86.9261856
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 29.9268036,
+        "y": 23.86865,
+        "z": -25.2141876
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 180.9668,
+        "y": 16.21865,
+        "z": 130.085815
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 46.5608063,
+        "y": 23.30565,
+        "z": -102.121193
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 26.6068039,
+        "y": 23.86865,
+        "z": -26.9641876
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 162.2768,
+        "y": 22.768652,
+        "z": -86.23419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 71.97681,
+        "y": 14.1386509,
+        "z": 20.19581
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 26.1368027,
+        "y": 23.86865,
+        "z": -24.01419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 109.116806,
+        "y": 22.70865,
+        "z": 234.205811
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 121.452805,
+        "y": 23.1926517,
+        "z": 190.089813
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -14.633194,
+        "y": 23.8186512,
+        "z": -58.76419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 57.486805,
+        "y": 23.4366512,
+        "z": 229.5658
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 182.9868,
+        "y": 16.21865,
+        "z": 127.555809
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": -15.4731979,
+        "y": 23.8186512,
+        "z": -56.62419
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 175.106812,
+        "y": 16.9956512,
+        "z": 2.17581081
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    },
+    {
+      "position": {
+        "x": 13.4328041,
+        "y": 23.48965,
+        "z": 157.559814
+      },
+      "categories": [
+        "player",
+        "bot",
+        "boss"
+      ],
+      "sides": [
+        "scav"
+      ],
+      "zoneName": "ZoneSandbox"
+    }
+  ],
+  "bosses": [],
+  "hazards": [
+    {
+      "hazardType": "sniper",
+      "name": "Sniper",
+      "position": {
+        "x": 227.853851,
+        "y": 27.1399918,
+        "z": -42.09
+      },
+      "top": 39.82466,
+      "bottom": 14.4553223
+    },
+    {
+      "hazardType": "sniper",
+      "name": "Sniper",
+      "position": {
+        "x": -88.15002,
+        "y": 31.409996,
+        "z": 137.459991
+      },
+      "top": 44.0946655,
+      "bottom": 18.7253265
+    },
+    {
+      "hazardType": "sniper",
+      "name": "Sniper",
+      "position": {
+        "x": -45.80002,
+        "y": 31.409996,
+        "z": 295.74
+      },
+      "top": 44.0946655,
+      "bottom": 18.7253265
+    },
+    {
+      "hazardType": "sniper",
+      "name": "Sniper",
+      "position": {
+        "x": -69.20001,
+        "y": 31.409996,
+        "z": 289.199982
+      },
+      "top": 44.0946655,
+      "bottom": 18.7253265
+    },
+    {
+      "hazardType": "minefield",
+      "name": "Landmine",
+      "position": {
+        "x": 220.805481,
+        "y": 15.6500015,
+        "z": 133.905258
+      },
+      "top": 31.7150021,
+      "bottom": -0.4149971
+    },
+    {
+      "hazardType": "minefield",
+      "name": "Landmine",
+      "position": {
+        "x": 222.7634,
+        "y": 15.6500015,
+        "z": 175.468857
+      },
+      "top": 31.7150021,
+      "bottom": -0.4149971
+    },
+    {
+      "hazardType": "minefield",
+      "name": "Landmine",
+      "position": {
+        "x": 59.784,
+        "y": 23.8979988,
+        "z": 170.7
+      },
+      "top": 24.3979988,
+      "bottom": 23.3979988
+    },
+    {
+      "hazardType": "minefield",
+      "name": "Landmine",
+      "position": {
+        "x": 59.721,
+        "y": 23.8979988,
+        "z": 170.799
+      },
+      "top": 24.3979988,
+      "bottom": 23.3979988
+    },
+    {
+      "hazardType": "minefield",
+      "name": "Landmine",
+      "position": {
+        "x": 59.834,
+        "y": 23.8979988,
+        "z": 170.875992
+      },
+      "top": 24.3979988,
+      "bottom": 23.3979988
+    }
+  ],
+  "lootContainers": [
+    {
+      "position": {
+        "x": 79.82588,
+        "y": 22.737,
+        "z": 242.33963
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 82.9592,
+        "y": 23.4532738,
+        "z": 241.411377
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 83.56084,
+        "y": 23.0361881,
+        "z": 240.988251
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 35.9025421,
+        "y": 22.9931259,
+        "z": -80.03086
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 52.6295166,
+        "y": 22.75003,
+        "z": 114.745667
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 80.5135345,
+        "y": 22.74406,
+        "z": 81.70165
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 79.63353,
+        "y": 22.7360382,
+        "z": 107.287682
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 114.838463,
+        "y": 2.98394775,
+        "z": 509.9748
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 84.20202,
+        "y": 22.5960178,
+        "z": 134.770935
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 74.83217,
+        "y": 22.6757469,
+        "z": 91.8819962
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 215.870178,
+        "y": 16.160614,
+        "z": 14.7893448
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 213.565125,
+        "y": 15.9989929,
+        "z": 38.2748642
+      },
+      "lootContainer": {
+        "name": "Scav body",
+        "normalizedName": "scav-body"
+      }
+    },
+    {
+      "position": {
+        "x": 222.443115,
+        "y": 16.0439835,
+        "z": 154.19693
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 170.435089,
+        "y": 16.085,
+        "z": 67.59388
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 225.219208,
+        "y": 16.1439743,
+        "z": 89.06849
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -15.4650116,
+        "y": 22.76,
+        "z": 301.532166
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -6.813999,
+        "y": 22.7519989,
+        "z": 299.387
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 5.53879166,
+        "y": 23.4455528,
+        "z": 295.509521
+      },
+      "lootContainer": {
+        "name": "Safe",
+        "normalizedName": "safe"
+      }
+    },
+    {
+      "position": {
+        "x": 234.438126,
+        "y": 16.1576214,
+        "z": 62.4971
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 220.280716,
+        "y": 16.341053,
+        "z": 126.859695
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 56.6553879,
+        "y": 24.2371445,
+        "z": 171.99295
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 56.6553879,
+        "y": 24.2371445,
+        "z": 171.99295
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 56.6553879,
+        "y": 24.2371445,
+        "z": 171.99295
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 56.6553879,
+        "y": 24.2371445,
+        "z": 171.99295
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 54.50702,
+        "y": 24.2311211,
+        "z": 148.031342
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 54.50702,
+        "y": 24.2311211,
+        "z": 148.031342
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 54.50702,
+        "y": 24.2311211,
+        "z": 148.031342
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 54.50702,
+        "y": 24.2311211,
+        "z": 148.031342
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 52.07105,
+        "y": 24.2385,
+        "z": 174.019958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 52.07105,
+        "y": 24.2385,
+        "z": 174.019958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 52.07105,
+        "y": 24.2385,
+        "z": 174.019958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 52.07105,
+        "y": 24.2385,
+        "z": 174.496948
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 52.07105,
+        "y": 24.2385,
+        "z": 174.496948
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 60.9822159,
+        "y": 31.1117287,
+        "z": 134.776276
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 61.4272079,
+        "y": 31.1117287,
+        "z": 145.835281
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 59.95133,
+        "y": 31.1117287,
+        "z": 147.445038
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 58.9568939,
+        "y": 31.923,
+        "z": 145.816925
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 38.5809479,
+        "y": 31.7079163,
+        "z": 137.114426
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.5809479,
+        "y": 31.7079163,
+        "z": 137.114426
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.5809479,
+        "y": 31.7079163,
+        "z": 137.114426
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.5809479,
+        "y": 31.7079163,
+        "z": 137.114426
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.0929451,
+        "y": 31.7079163,
+        "z": 137.114441
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.0929451,
+        "y": 31.7079163,
+        "z": 137.114441
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.0929451,
+        "y": 31.7079163,
+        "z": 137.114441
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 38.0929451,
+        "y": 31.7079163,
+        "z": 137.114441
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 59.1404228,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 59.1404228,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 59.1404228,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 59.1404228,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 58.6604233,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 58.6604233,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 58.6604233,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 58.6604233,
+        "y": 31.7079163,
+        "z": 150.374527
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 44.65702,
+        "y": 22.0125,
+        "z": 150.05304
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 29.564785,
+        "y": 23.939045,
+        "z": 8.718109
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 51.836998,
+        "y": 23.5745525,
+        "z": -54.6975327
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 54.623,
+        "y": 24.1140461,
+        "z": 92.63597
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 56.1682358,
+        "y": 22.5658016,
+        "z": 70.05502
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 2.13999939,
+        "y": 23.8230457,
+        "z": 4.02899933
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 17.7421112,
+        "y": 25.1818027,
+        "z": 69.9996643
+      },
+      "lootContainer": {
+        "name": "Cash register",
+        "normalizedName": "cash-register"
+      }
+    },
+    {
+      "position": {
+        "x": 15.8012848,
+        "y": 24.1340351,
+        "z": 71.68918
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 64.28,
+        "y": 23.4480457,
+        "z": 90.8959656
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 42.71881,
+        "y": 22.7002048,
+        "z": 101.456924
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 33.22687,
+        "y": 23.9430122,
+        "z": 37.2366867
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 45.37,
+        "y": 24.3406467,
+        "z": 101.158669
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 7.70899963,
+        "y": 23.9680462,
+        "z": -0.9820328
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 61.65975,
+        "y": 22.7537022,
+        "z": 89.4429855
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 16.302002,
+        "y": 23.8010464,
+        "z": 83.78197
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 101.96,
+        "y": 14.6830807,
+        "z": -6.96299744
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 98.396,
+        "y": 16.084,
+        "z": 44.352005
+      },
+      "lootContainer": {
+        "name": "Jacket",
+        "normalizedName": "jacket"
+      }
+    },
+    {
+      "position": {
+        "x": 97.689,
+        "y": 16.091,
+        "z": 44.349
+      },
+      "lootContainer": {
+        "name": "Jacket",
+        "normalizedName": "jacket"
+      }
+    },
+    {
+      "position": {
+        "x": 54.204,
+        "y": 13.919,
+        "z": -27.8359985
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 101.474,
+        "y": 14.9240808,
+        "z": 51.081
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 81.912,
+        "y": 14.376,
+        "z": 181.465
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 106.376,
+        "y": 14.105,
+        "z": 53.5330048
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": -27.5070038,
+        "y": 24.3270073,
+        "z": 55.6059952
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -15.0389633,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -15.0389633,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -15.0389633,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -15.0389633,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -17.8699646,
+        "y": 30.4876766,
+        "z": 39.8393631
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -17.8699646,
+        "y": 30.4876766,
+        "z": 39.8393631
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -17.8699646,
+        "y": 30.4876766,
+        "z": 39.8393631
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -17.8699646,
+        "y": 30.4876766,
+        "z": 39.8393631
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -11.7009659,
+        "y": 30.4916782,
+        "z": 39.7893677
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -11.7009659,
+        "y": 30.4916782,
+        "z": 39.7893677
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -11.7009659,
+        "y": 30.4916782,
+        "z": 39.7893677
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -11.7009659,
+        "y": 30.4916782,
+        "z": 39.7893677
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -14.5459671,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -14.5459671,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -14.5459671,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -14.5459671,
+        "y": 30.4876766,
+        "z": 39.8383636
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -36.4220047,
+        "y": 29.845005,
+        "z": 66.00299
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -14.6449966,
+        "y": 23.9659977,
+        "z": -26.4979935
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -47.2868652,
+        "y": 24.5690746,
+        "z": 28.08686
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -24.677002,
+        "y": 24.3249969,
+        "z": -26.7289963
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -59.3820038,
+        "y": 24.4230022,
+        "z": 26.4859848
+      },
+      "lootContainer": {
+        "name": "Lab technician body",
+        "normalizedName": "lab-technician-body"
+      }
+    },
+    {
+      "position": {
+        "x": -24.3079834,
+        "y": 30.4973278,
+        "z": 84.8434448
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -24.3079834,
+        "y": 30.4973278,
+        "z": 84.8434448
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -24.3079834,
+        "y": 30.4973278,
+        "z": 84.8434448
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -24.3079834,
+        "y": 30.4973278,
+        "z": 84.8434448
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": -21.7979965,
+        "y": 23.954998,
+        "z": -21.8749924
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -10.18,
+        "y": 24.328001,
+        "z": 30.5259857
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -50.293,
+        "y": 24.3370075,
+        "z": 44.4989853
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -19.1823578,
+        "y": 29.9147511,
+        "z": 55.0274734
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": -19.2463989,
+        "y": 29.9147472,
+        "z": 46.3064575
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": -11.52,
+        "y": 29.9270039,
+        "z": 54.8289833
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": -29.47467,
+        "y": 29.9167538,
+        "z": 90.8107147
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 22.453,
+        "y": 23.8039951,
+        "z": -49.2469864
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 160.829346,
+        "y": 22.889,
+        "z": -42.568367
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 183.36,
+        "y": 20.515,
+        "z": 45.8650169
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 181.647,
+        "y": 21.0099983,
+        "z": 48.8700256
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 158.861,
+        "y": 22.9199982,
+        "z": -49.5790329
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 147.49707,
+        "y": 23.034996,
+        "z": -95.24186
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 23.2689972,
+        "y": 22.88,
+        "z": 311.753
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 28.6802139,
+        "y": 23.15468,
+        "z": 340.9612
+      },
+      "lootContainer": {
+        "name": "Cash register",
+        "normalizedName": "cash-register"
+      }
+    },
+    {
+      "position": {
+        "x": 112.894875,
+        "y": 33.6343765,
+        "z": 274.522522
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.894875,
+        "y": 33.6343765,
+        "z": 274.522522
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.894875,
+        "y": 33.6343765,
+        "z": 274.522522
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.894875,
+        "y": 33.6343765,
+        "z": 274.522522
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 105.0363,
+        "y": 33.0538979,
+        "z": 271.799377
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 106.2372,
+        "y": 33.0538979,
+        "z": 282.316071
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 105.295662,
+        "y": 33.0538979,
+        "z": 274.751
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 106.984283,
+        "y": 33.0538979,
+        "z": 276.604675
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 101.718269,
+        "y": 33.0538979,
+        "z": 278.722015
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 105.196053,
+        "y": 33.0538979,
+        "z": 279.618652
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 112.63488,
+        "y": 33.6343765,
+        "z": 274.927551
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.63488,
+        "y": 33.6343765,
+        "z": 274.927551
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.63488,
+        "y": 33.6343765,
+        "z": 274.927551
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 112.63488,
+        "y": 33.6343765,
+        "z": 274.927551
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 109.705307,
+        "y": 33.0538979,
+        "z": 273.5864
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 111.784393,
+        "y": 33.0775,
+        "z": 276.637482
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 103.910172,
+        "y": 33.0538979,
+        "z": 268.27536
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 108.788155,
+        "y": 33.0538979,
+        "z": 260.553223
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 109.110443,
+        "y": 33.0538979,
+        "z": 262.766876
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 111.812622,
+        "y": 33.6343765,
+        "z": 270.511627
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 111.812622,
+        "y": 33.6343765,
+        "z": 270.511627
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 111.812622,
+        "y": 33.6343765,
+        "z": 270.511627
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 111.812622,
+        "y": 33.6343765,
+        "z": 270.511627
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 105.120018,
+        "y": 33.0538979,
+        "z": 261.9593
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 109.9703,
+        "y": 33.0538979,
+        "z": 266.863342
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 106.4833,
+        "y": 33.0538979,
+        "z": 265.799347
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 138.255264,
+        "y": 27.1606712,
+        "z": -98.4473
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 138.255264,
+        "y": 27.1606712,
+        "z": -98.4473
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 138.255264,
+        "y": 27.1606712,
+        "z": -98.4473
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 138.255264,
+        "y": 27.1606712,
+        "z": -98.4473
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 84.03392,
+        "y": 27.1613426,
+        "z": -89.89866
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 84.03392,
+        "y": 27.1613426,
+        "z": -89.89866
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 84.03392,
+        "y": 27.1613426,
+        "z": -89.89866
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 84.03392,
+        "y": 27.1613426,
+        "z": -89.89866
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 154.651,
+        "y": 23.256,
+        "z": -99.135994
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 150.653,
+        "y": 22.9199982,
+        "z": -80.16401
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 3.97108078,
+        "y": 22.8856087,
+        "z": 333.7597
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 175.599411,
+        "y": 17.8746319,
+        "z": -10.8448105
+      },
+      "lootContainer": {
+        "name": "Civilian body",
+        "normalizedName": "civilian-body"
+      }
+    },
+    {
+      "position": {
+        "x": 172.97,
+        "y": 17.81,
+        "z": 27.45401
+      },
+      "lootContainer": {
+        "name": "Cash register",
+        "normalizedName": "cash-register"
+      }
+    },
+    {
+      "position": {
+        "x": 181.645,
+        "y": 17.2479954,
+        "z": -12.94677
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 100.463,
+        "y": 14.107,
+        "z": 3.52024078
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 133.892,
+        "y": 16.9189987,
+        "z": -12.4760056
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 126.661743,
+        "y": 22.7504311,
+        "z": -0.8543396
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 100.923,
+        "y": 29.3569965,
+        "z": -26.3327637
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 113.814034,
+        "y": 23.267,
+        "z": 196.53183
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.904968
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.904968
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.904968
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.904968
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.437958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.437958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.437958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 117.77739,
+        "y": 23.9706745,
+        "z": 196.437958
+      },
+      "lootContainer": {
+        "name": "Drawer",
+        "normalizedName": "drawer"
+      }
+    },
+    {
+      "position": {
+        "x": 119.604004,
+        "y": 23.4089985,
+        "z": 185.35
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 117.905556,
+        "y": 23.4089985,
+        "z": 191.092255
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 121.996,
+        "y": 23.4089985,
+        "z": 195.871
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 109.132,
+        "y": 27.671,
+        "z": 176.08
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 124.298058,
+        "y": 25.0673866,
+        "z": 104.06337
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 121.7352,
+        "y": 24.704,
+        "z": 105.1222
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 111.014549,
+        "y": 27.7036934,
+        "z": 201.316254
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 46.37985,
+        "y": 24.362999,
+        "z": 123.345322
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 119.545128,
+        "y": 24.6151161,
+        "z": 107.771126
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 107.31456,
+        "y": 24.769,
+        "z": 110.74868
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 100.870789,
+        "y": 24.6696968,
+        "z": 133.135986
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 200.278214,
+        "y": 16.62,
+        "z": 123.839828
+      },
+      "lootContainer": {
+        "name": "Safe",
+        "normalizedName": "safe"
+      }
+    },
+    {
+      "position": {
+        "x": 128.224365,
+        "y": 22.971,
+        "z": 207.606476
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 184.3757,
+        "y": 23.0226841,
+        "z": 103.349831
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 171.738708,
+        "y": 25.1689987,
+        "z": 79.45656
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 94.62578,
+        "y": 22.834465,
+        "z": 226.035065
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 97.11545,
+        "y": 22.7547474,
+        "z": 169.451172
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 191.700378,
+        "y": 16.4299259,
+        "z": 132.934647
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 192.026062,
+        "y": 16.5134411,
+        "z": 136.356323
+      },
+      "lootContainer": {
+        "name": "PC block",
+        "normalizedName": "pc-block"
+      }
+    },
+    {
+      "position": {
+        "x": 66.423,
+        "y": 23.5609989,
+        "z": 190.681
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 45.871,
+        "y": 22.934,
+        "z": 246.40802
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": -6.56499863,
+        "y": 22.719,
+        "z": 287.443
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 20.948,
+        "y": 23.4116058,
+        "z": 251.27356
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    },
+    {
+      "position": {
+        "x": 39.687,
+        "y": 23.5530167,
+        "z": 123.478989
+      },
+      "lootContainer": {
+        "name": "PMC body",
+        "normalizedName": "pmc-body"
+      }
+    },
+    {
+      "position": {
+        "x": 32.506,
+        "y": 24.188,
+        "z": 60.084
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 4.5719986,
+        "y": 24.267,
+        "z": 33.231
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 17.1829987,
+        "y": 24.241,
+        "z": 84.114
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 41.409,
+        "y": 24.342,
+        "z": -6.425003
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 34.56,
+        "y": 24.36,
+        "z": 20.181
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 23.704,
+        "y": 24.344,
+        "z": 14.4980011
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 120.355,
+        "y": 23.433,
+        "z": -77.301
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 85.557,
+        "y": 23.237,
+        "z": -67.010994
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 140.385,
+        "y": 23.433,
+        "z": -77.355
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 112.624,
+        "y": 23.433,
+        "z": -75.074
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 116.344,
+        "y": 23.334,
+        "z": -96.3559952
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 139.667,
+        "y": 23.315,
+        "z": -71.7869949
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 186.693,
+        "y": 17.666,
+        "z": -38.109993
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 199.69,
+        "y": 17.037,
+        "z": -4.939003
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 183.739,
+        "y": 17.658,
+        "z": -38.1290054
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 194.622,
+        "y": 16.97,
+        "z": -22.862999
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 195.079,
+        "y": 17.508,
+        "z": -43.3100052
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 178.354,
+        "y": 17.081,
+        "z": 114.553
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 194.796,
+        "y": 16.741,
+        "z": 90.543
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 200.225,
+        "y": 16.605,
+        "z": 106.337
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 200.381,
+        "y": 16.747,
+        "z": 103.451
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 181.781,
+        "y": 25.089,
+        "z": 95.349
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 194.223,
+        "y": 16.944,
+        "z": 81.704
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 133.121,
+        "y": 23.268,
+        "z": 218.23
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 124.421,
+        "y": 23.408,
+        "z": 229.512
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 116.972,
+        "y": 23.408,
+        "z": 227.159
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 105.277,
+        "y": 23.549,
+        "z": 219.799
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 144.109,
+        "y": 23.328,
+        "z": 229.285
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 81.136,
+        "y": 23.301,
+        "z": 289.841
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 37.021,
+        "y": 23.359,
+        "z": 276.562
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 35.829,
+        "y": 23.153,
+        "z": 260.154
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 71.739,
+        "y": 23.368,
+        "z": 296.132
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 54.405,
+        "y": 23.61,
+        "z": 263.195
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 31.02177,
+        "y": 22.753,
+        "z": 284.355255
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 160.6183,
+        "y": 23.5314674,
+        "z": -77.3411942
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 154.948761,
+        "y": 23.5416679,
+        "z": -83.54722
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 152.05098,
+        "y": 23.0510674,
+        "z": -83.55277
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 154.630157,
+        "y": 22.7276669,
+        "z": -90.3138657
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 149.935867,
+        "y": 23.455267,
+        "z": -77.34226
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 122.281052,
+        "y": 25.355999,
+        "z": 144.039856
+      },
+      "lootContainer": {
+        "name": "Ration supply crate",
+        "normalizedName": "ration-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 121.028595,
+        "y": 25.3569984,
+        "z": 137.8912
+      },
+      "lootContainer": {
+        "name": "Ration supply crate",
+        "normalizedName": "ration-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 128.914841,
+        "y": 24.6554985,
+        "z": 163.7237
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 113.543571,
+        "y": 24.6554985,
+        "z": 164.461868
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 115.4312,
+        "y": 23.4195,
+        "z": 170.996078
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 129.4982,
+        "y": 25.1498985,
+        "z": 165.45108
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 131.200012,
+        "y": 24.935,
+        "z": 93.582016
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 125.435013,
+        "y": 24.935,
+        "z": 90.91302
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 124.14901,
+        "y": 24.99,
+        "z": 101.487015
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 122.366013,
+        "y": 24.7069988,
+        "z": 118.392014
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 106.116013,
+        "y": 24.944,
+        "z": 114.181015
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 113.994011,
+        "y": 24.893,
+        "z": 113.743019
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 131.274048,
+        "y": 29.545,
+        "z": 88.78368
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 118.651009,
+        "y": 25.298,
+        "z": 126.382019
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 121.38501,
+        "y": 24.385,
+        "z": 130.85701
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 126.444008,
+        "y": 24.386,
+        "z": 134.661011
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 104.53801,
+        "y": 29.4289989,
+        "z": 115.706017
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 100.548012,
+        "y": 28.889,
+        "z": 109.168015
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 122.057907,
+        "y": 24.4665,
+        "z": 157.003021
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 120.233009,
+        "y": 24.4665,
+        "z": 156.194016
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 124.328011,
+        "y": 24.835,
+        "z": 158.572021
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 127.859009,
+        "y": 24.854,
+        "z": 163.439011
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 119.087006,
+        "y": 24.8599987,
+        "z": 162.413025
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 108.263,
+        "y": 23.079,
+        "z": 5.277977
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 113.846,
+        "y": 22.768,
+        "z": -0.416023254
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 110.190994,
+        "y": 23.0796,
+        "z": -11.3160172
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 114.113,
+        "y": 23.656,
+        "z": -5.63802338
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 104.348,
+        "y": 23.232,
+        "z": -12.4210205
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 123.313873,
+        "y": 23.0334988,
+        "z": 6.23636627
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 129.447662,
+        "y": 23.0334988,
+        "z": 9.534004
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 123.655479,
+        "y": 23.0334988,
+        "z": 13.9900436
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 124.629,
+        "y": 23.244,
+        "z": 29.6880112
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 122.006996,
+        "y": 23.4704,
+        "z": 23.45301
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 110.137993,
+        "y": 23.578,
+        "z": 26.5990067
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 106.528992,
+        "y": 23.3305,
+        "z": 28.2430038
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 111.671,
+        "y": 23.249,
+        "z": 32.9030075
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 127.867836,
+        "y": 23.0305,
+        "z": 20.6557083
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 129.6282,
+        "y": 23.8319,
+        "z": 21.1632156
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 123.44416,
+        "y": 23.0334988,
+        "z": 25.75698
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 179.735977,
+        "y": 16.921999,
+        "z": 30.5779762
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 179.283981,
+        "y": 16.921999,
+        "z": 35.303978
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 171.189972,
+        "y": 16.921999,
+        "z": 34.5359764
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 179.358978,
+        "y": 17.374,
+        "z": 21.3159714
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 171.21698,
+        "y": 21.373,
+        "z": 27.5029755
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 176.714981,
+        "y": 21.373,
+        "z": 20.3679733
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 109.562012,
+        "y": 24.0159988,
+        "z": 284.349
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 114.793007,
+        "y": 24.0159988,
+        "z": 279.487
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 111.194008,
+        "y": 24.0159988,
+        "z": 273.758
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 120.730011,
+        "y": 24.407999,
+        "z": 281.587
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 109.352013,
+        "y": 24.0159988,
+        "z": 287.719
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 103.632011,
+        "y": 24.362999,
+        "z": 290.621
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 105.091011,
+        "y": 33.589,
+        "z": 273.835
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 113.064011,
+        "y": 33.408,
+        "z": 277.022
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 105.402008,
+        "y": 32.801,
+        "z": 260.189
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 104.814011,
+        "y": 32.801,
+        "z": 266.60498
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 107.99601,
+        "y": 33.552002,
+        "z": 268.926
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 110.313011,
+        "y": 33.552002,
+        "z": 261.62
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 107.267014,
+        "y": 33.589,
+        "z": 275.259
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 107.785011,
+        "y": 33.431,
+        "z": 285.952
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 121.682007,
+        "y": 32.801,
+        "z": 292.645
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 121.447006,
+        "y": 32.806,
+        "z": 282.336
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -41.33,
+        "y": 24.631,
+        "z": 22.0979919
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -39.802002,
+        "y": 24.768,
+        "z": 37.35599
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -31.2569962,
+        "y": 24.562,
+        "z": 27.73899
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -44.5759964,
+        "y": 30.167,
+        "z": 62.1719933
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -37.266,
+        "y": 29.687,
+        "z": 62.9239922
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -27.8809967,
+        "y": 30.282,
+        "z": 54.6629944
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -45.9519958,
+        "y": 29.652,
+        "z": 56.3949928
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -45.586,
+        "y": 29.652,
+        "z": 67.885994
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -19.5369949,
+        "y": 29.661,
+        "z": 47.2229919
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -8.233997,
+        "y": 29.661,
+        "z": 45.4369926
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -18.6449966,
+        "y": 30.46,
+        "z": 51.9509926
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -9.903999,
+        "y": 30.46,
+        "z": 52.340992
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -7.681999,
+        "y": 30.26,
+        "z": 48.0239944
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -3.7009964,
+        "y": 29.6619987,
+        "z": 63.7309952
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -13.5679932,
+        "y": 29.657999,
+        "z": 81.38699
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -22.9659958,
+        "y": 29.657999,
+        "z": 88.84699
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -23.8399963,
+        "y": 30.2729988,
+        "z": 81.4549942
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -21.585,
+        "y": 30.219,
+        "z": 74.09099
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -15.445,
+        "y": 29.737999,
+        "z": 68.5519943
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -28.1669922,
+        "y": 30.128,
+        "z": 80.62299
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -23.7169952,
+        "y": 29.657,
+        "z": 56.12799
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -27.904,
+        "y": 30.296999,
+        "z": 52.9629936
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -28.5745544,
+        "y": 29.9285,
+        "z": 74.62695
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": -27.384552,
+        "y": 30.2104988,
+        "z": 71.98795
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": -24.9958572,
+        "y": 29.9304981,
+        "z": 87.07776
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": -25.0304871,
+        "y": 29.9304981,
+        "z": 82.2673
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 127.590996,
+        "y": 14.8939991,
+        "z": 61.35199
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 99.088,
+        "y": 14.5939989,
+        "z": 63.60299
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 106.634995,
+        "y": 14.2219982,
+        "z": 69.85299
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 127.224335,
+        "y": 15.1554995,
+        "z": 60.00315
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 101.065094,
+        "y": 13.6070986,
+        "z": 49.7341232
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 104.129066,
+        "y": 12.6764994,
+        "z": 47.19061
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 98.232666,
+        "y": 14.9544992,
+        "z": 43.78568
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 97.2324142,
+        "y": 14.2054987,
+        "z": 42.5176926
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 73.37399,
+        "y": 15.0309982,
+        "z": 126.023987
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 57.8049965,
+        "y": 15.0859985,
+        "z": 107.077988
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 88.5519943,
+        "y": 15.848999,
+        "z": 97.48099
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.823,
+        "y": 14.5278988,
+        "z": 86.3879852
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 80.004,
+        "y": 15.2399988,
+        "z": 120.312988
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.9109955,
+        "y": 15.3479986,
+        "z": 121.925987
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 88.4809952,
+        "y": 14.9049988,
+        "z": 132.794983
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 82.169,
+        "y": 14.1939983,
+        "z": 178.836
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 69.001,
+        "y": 14.914999,
+        "z": 163.875
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 62.0669975,
+        "y": 14.7609987,
+        "z": 163.030991
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 71.129,
+        "y": 14.8979988,
+        "z": 157.152
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 79.888,
+        "y": 14.9379988,
+        "z": 149.986
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 85.6069946,
+        "y": 14.926199,
+        "z": 57.88599
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 101.228,
+        "y": 15.6589985,
+        "z": 43.27499
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 64.492,
+        "y": 15.0191984,
+        "z": 28.4449921
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.765,
+        "y": 15.2869987,
+        "z": 4.488991
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 90.446,
+        "y": 14.9789982,
+        "z": 21.7369919
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 79.0239944,
+        "y": 14.6879988,
+        "z": -40.018013
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 81.94299,
+        "y": 14.5439987,
+        "z": -57.79801
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 84.6461945,
+        "y": 14.5959988,
+        "z": -24.8834076
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 92.377,
+        "y": 14.822999,
+        "z": -49.9080124
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.9799957,
+        "y": 14.9179983,
+        "z": -20.9240112
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 68.30266,
+        "y": 14.8719988,
+        "z": 156.540863
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 65.99105,
+        "y": 14.8719988,
+        "z": 163.183746
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 71.88733,
+        "y": 15.8659983,
+        "z": 164.27417
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 63.7859955,
+        "y": 14.9179983,
+        "z": 26.96196
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 67.9405746,
+        "y": 14.9199991,
+        "z": 22.5584183
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 65.69703,
+        "y": 14.9179983,
+        "z": 22.5909882
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 117.775993,
+        "y": 23.618,
+        "z": 188.134018
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 118.425995,
+        "y": 23.618,
+        "z": 190.527023
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 121.124992,
+        "y": 23.6179981,
+        "z": 186.058014
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 121.575989,
+        "y": 23.6179981,
+        "z": 195.28302
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 117.46,
+        "y": 23.5619984,
+        "z": 192.058823
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 129.18219,
+        "y": 23.5619984,
+        "z": 190.49202
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 128.780182,
+        "y": 23.5619984,
+        "z": 182.49501
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 122.838989,
+        "y": 23.5619984,
+        "z": 197.151215
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 49.7100372,
+        "y": 23.789999,
+        "z": 154.318985
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 51.757328,
+        "y": 23.789999,
+        "z": 154.178879
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 48.04353,
+        "y": 23.7860012,
+        "z": 154.162064
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 12.5440025,
+        "y": 24.038,
+        "z": 160.150009
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 17.4920044,
+        "y": 23.407,
+        "z": 157.839
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 19.7560043,
+        "y": 24.038,
+        "z": 156.230011
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 25.0444031,
+        "y": 24.1997,
+        "z": 156.1347
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 55.7250023,
+        "y": 24.046,
+        "z": 142.645
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 25.2780037,
+        "y": 23.953,
+        "z": 137.212311
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 49.038002,
+        "y": 24.3599987,
+        "z": 142.934
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 54.696003,
+        "y": 23.954,
+        "z": 136.85701
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 63.14752,
+        "y": 31.822998,
+        "z": 133.436874
+      },
+      "lootContainer": {
+        "name": "Medical supply crate",
+        "normalizedName": "medical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 63.3037453,
+        "y": 31.82,
+        "z": 149.271484
+      },
+      "lootContainer": {
+        "name": "Medical supply crate",
+        "normalizedName": "medical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 48.0824623,
+        "y": 31.822998,
+        "z": 160.134247
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 49.8713,
+        "y": 31.822998,
+        "z": 127.30484
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 48.97502,
+        "y": 31.8429985,
+        "z": 135.307312
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 49.9493141,
+        "y": 31.2449989,
+        "z": 137.799
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 58.36302,
+        "y": 31.2449989,
+        "z": 128.508316
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 181.898987,
+        "y": 17.784,
+        "z": -4.88900757
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 181.978989,
+        "y": 17.778,
+        "z": -11.0040131
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 187.105988,
+        "y": 17.778,
+        "z": -10.89901
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 171.056,
+        "y": 17.15,
+        "z": -9.080009
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 171.332,
+        "y": 17.37,
+        "z": 17.79599
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 172.612991,
+        "y": 17.959,
+        "z": 2.7869873
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 158.1238,
+        "y": 17.9435,
+        "z": 8.33979
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 151.911865,
+        "y": 17.1934986,
+        "z": -1.48796082
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 147.2464,
+        "y": 17.1934986,
+        "z": -1.67598724
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 147.2334,
+        "y": 17.6175,
+        "z": -9.312988
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 134.173233,
+        "y": 17.1898,
+        "z": -10.2857819
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 139.7555,
+        "y": 17.1898,
+        "z": -10.9265747
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 136.6283,
+        "y": 17.1894989,
+        "z": -14.59185
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 188.692764,
+        "y": 16.4574986,
+        "z": 134.6635
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 197.045685,
+        "y": 16.4574986,
+        "z": 137.691467
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 194.392578,
+        "y": 16.4574986,
+        "z": 129.520966
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 83.23,
+        "y": 22.629,
+        "z": 134.645
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 80.796,
+        "y": 23.028,
+        "z": 131.538
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 95.12599,
+        "y": 27.909,
+        "z": 220.601959
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 95.32199,
+        "y": 27.288,
+        "z": 225.144958
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 97.06999,
+        "y": 22.781,
+        "z": 226.806976
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 101.316986,
+        "y": 22.781,
+        "z": 220.366959
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 93.9747543,
+        "y": 23.0485,
+        "z": 223.6565
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 96.4938049,
+        "y": 23.050499,
+        "z": 226.231537
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 95.02957,
+        "y": 23.0525,
+        "z": 226.979279
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 17.8579941,
+        "y": 24.389,
+        "z": -52.0209732
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 9.707993,
+        "y": 24.3599987,
+        "z": -43.7269821
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 28.8279915,
+        "y": 23.8109989,
+        "z": -21.6829758
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -10.28701,
+        "y": 24.99,
+        "z": -34.527977
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -15.2487869,
+        "y": 23.979,
+        "z": -38.66001
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": -15.0260086,
+        "y": 24.3129978,
+        "z": -40.751976
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": -16.51648,
+        "y": 24.271,
+        "z": -39.333107
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": -18.3795242,
+        "y": 21.4841213,
+        "z": 339.1067
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": -5.427841,
+        "y": 22.8968945,
+        "z": 332.256775
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 175.877,
+        "y": 17.0458717,
+        "z": 12.4037781
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": 106.057571,
+        "y": 14.3604994,
+        "z": 9.501549
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 115.192,
+        "y": 23.545,
+        "z": 194.85524
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 111.848,
+        "y": 29.72698,
+        "z": 161.051834
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 109.138,
+        "y": 29.9129982,
+        "z": 161.824
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 136.358627,
+        "y": 27.6398849,
+        "z": 107.697983
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 108.624634,
+        "y": 24.994,
+        "z": 153.210358
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 119.224907,
+        "y": 24.960886,
+        "z": 155.858292
+      },
+      "lootContainer": {
+        "name": "Medcase",
+        "normalizedName": "medcase"
+      }
+    },
+    {
+      "position": {
+        "x": 118.766,
+        "y": 25.3380013,
+        "z": 137.849
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 191.036942,
+        "y": 16.77256,
+        "z": 100.784889
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": 172.353943,
+        "y": 25.039,
+        "z": 104.307442
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 172.279678,
+        "y": 24.902607,
+        "z": 82.8226547
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 175.48587,
+        "y": 25.122,
+        "z": 79.3935
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 97.89871,
+        "y": 25.4779987,
+        "z": 79.66956
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 105.602913,
+        "y": 24.7451839,
+        "z": 84.16972
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 115.82222,
+        "y": 25.1905,
+        "z": 93.63992
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 174.686539,
+        "y": 25.2951851,
+        "z": 115.696449
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 186.452,
+        "y": 16.854,
+        "z": 130.909
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 48.8240128,
+        "y": 31.1295,
+        "z": 131.2507
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 40.3546181,
+        "y": 23.5297527,
+        "z": 125.362854
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 44.84798,
+        "y": 23.7760143,
+        "z": 124.672684
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 48.46563,
+        "y": 24.3590145,
+        "z": 124.098984
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": -18.3307648,
+        "y": 17.3165,
+        "z": 331.883331
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 39.2884521,
+        "y": 23.9024143,
+        "z": 336.203674
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 183.467987,
+        "y": 17.2828751,
+        "z": -8.171883
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": 95.2853,
+        "y": 14.4285,
+        "z": -9.733658
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 120.785484,
+        "y": 23.539,
+        "z": 184.795013
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 102.435,
+        "y": 24.506979,
+        "z": 144.321838
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 124.197,
+        "y": 29.3650017,
+        "z": 163.526
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 122.190948,
+        "y": 25.1703987,
+        "z": 129.959229
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 117.371979,
+        "y": 25.1588,
+        "z": 138.786057
+      },
+      "lootContainer": {
+        "name": "Medcase",
+        "normalizedName": "medcase"
+      }
+    },
+    {
+      "position": {
+        "x": 193.637314,
+        "y": 16.77256,
+        "z": 103.124832
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": 176.454391,
+        "y": 24.819,
+        "z": 114.511162
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": 173.051376,
+        "y": 24.9237061,
+        "z": 83.4879
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 177.134964,
+        "y": 24.778,
+        "z": 84.9284
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 106.384,
+        "y": 24.937,
+        "z": 81.615
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 170.349319,
+        "y": 24.668499,
+        "z": 80.92142
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 97.17261,
+        "y": 24.668499,
+        "z": 88.6849442
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 170.817154,
+        "y": 24.9895,
+        "z": 116.087433
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 176.633,
+        "y": 25.078001,
+        "z": 112.943
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 58.5129,
+        "y": 31.1295,
+        "z": 148.2924
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 48.412838,
+        "y": 23.5301056,
+        "z": 125.1094
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 48.18974,
+        "y": 23.782,
+        "z": 130.3175
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 49.943,
+        "y": 23.974,
+        "z": 124.281
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 62.0375,
+        "y": 30.86274,
+        "z": 142.200989
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 61.051,
+        "y": 23.384,
+        "z": 129.775
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 12.166,
+        "y": 23.329,
+        "z": 327.504
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 99.72046,
+        "y": 14.503,
+        "z": 171.207184
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -10.250946,
+        "y": 22.72941,
+        "z": 326.52655
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 101.525,
+        "y": 18.587,
+        "z": 170.762
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 70.93659,
+        "y": 23.2828751,
+        "z": 313.067932
+      },
+      "lootContainer": {
+        "name": "Safe",
+        "normalizedName": "safe"
+      }
+    },
+    {
+      "position": {
+        "x": 50.53397,
+        "y": 26.7405,
+        "z": 151.7391
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 123.485886,
+        "y": 23.14648,
+        "z": 63.9226532
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 101.500092,
+        "y": 15.644,
+        "z": -9.330994
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 97.74,
+        "y": 14.3575,
+        "z": 52.6714058
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 106.8786,
+        "y": 12.6735811,
+        "z": 48.336
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 76.88451,
+        "y": 14.2755,
+        "z": -33.2349625
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 91.85268,
+        "y": 14.9871674,
+        "z": 14.45797
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 105.095,
+        "y": 12.874,
+        "z": 44.988
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 102.835838,
+        "y": 13.2999992,
+        "z": 47.33292
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 102.665543,
+        "y": 13.300107,
+        "z": 48.1396027
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 114.266655,
+        "y": 14.866107,
+        "z": 51.46521
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 106.757904,
+        "y": 13.46,
+        "z": 47.8507919
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 111.949142,
+        "y": 14.9574928,
+        "z": 54.3458138
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 103.147682,
+        "y": 13.1939993,
+        "z": 50.549
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 22.2255173,
+        "y": 23.94627,
+        "z": 315.210571
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": -29.8643417,
+        "y": 24.3031788,
+        "z": 31.0687637
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -45.04013,
+        "y": 24.3031826,
+        "z": 44.009552
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -19.9933014,
+        "y": 23.9651756,
+        "z": -26.7181244
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -25.4580688,
+        "y": 24.306181,
+        "z": -0.6469574
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -22.69133,
+        "y": 29.79318,
+        "z": 56.9218559
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -13.17189,
+        "y": 30.2550545,
+        "z": 66.1286
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": -22.8946075,
+        "y": 24.6206455,
+        "z": 93.37466
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 153.991974,
+        "y": 23.7287979,
+        "z": 32.398632
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": -15.3843079,
+        "y": 22.7628555,
+        "z": 302.992249
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 157.830719,
+        "y": 17.6816158,
+        "z": 60.2844963
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 204.153854,
+        "y": 17.306,
+        "z": 35.9701157
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 205.551849,
+        "y": 16.934,
+        "z": 33.82125
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 54.8078156,
+        "y": 23.967001,
+        "z": 155.258392
+      },
+      "lootContainer": {
+        "name": "Safe",
+        "normalizedName": "safe"
+      }
+    },
+    {
+      "position": {
+        "x": 43.2642136,
+        "y": 31.237999,
+        "z": 150.503326
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 120.190849,
+        "y": 23.4636555,
+        "z": 60.75271
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 105.923508,
+        "y": 15.06,
+        "z": 3.06318665
+      },
+      "lootContainer": {
+        "name": "Technical supply crate",
+        "normalizedName": "technical-supply-crate"
+      }
+    },
+    {
+      "position": {
+        "x": 105.434311,
+        "y": 14.3375006,
+        "z": 69.7777252
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 106.1386,
+        "y": 12.6755,
+        "z": 46.244
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 92.1315,
+        "y": 14.2035007,
+        "z": 19.2580566
+      },
+      "lootContainer": {
+        "name": "Toolbox",
+        "normalizedName": "toolbox"
+      }
+    },
+    {
+      "position": {
+        "x": 106.476,
+        "y": 12.874,
+        "z": 47.442
+      },
+      "lootContainer": {
+        "name": "Weapon box",
+        "normalizedName": "weapon-box"
+      }
+    },
+    {
+      "position": {
+        "x": 106.150345,
+        "y": 12.8301077,
+        "z": 45.531208
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": -31.020462,
+        "y": 24.3031788,
+        "z": 27.0169983
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -31.75856,
+        "y": 24.3031826,
+        "z": 35.0340042
+      },
+      "lootContainer": {
+        "name": "Plastic suitcase",
+        "normalizedName": "plastic-suitcase"
+      }
+    },
+    {
+      "position": {
+        "x": -11.8040009,
+        "y": 30.2550545,
+        "z": 67.97675
+      },
+      "lootContainer": {
+        "name": "Medbag SMU06",
+        "normalizedName": "medbag-smu06"
+      }
+    },
+    {
+      "position": {
+        "x": -8.07077,
+        "y": 23.2909985,
+        "z": 297.176941
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 125.751053,
+        "y": 22.9431763,
+        "z": 66.25792
+      },
+      "lootContainer": {
+        "name": "Grenade box",
+        "normalizedName": "grenade-box"
+      }
+    },
+    {
+      "position": {
+        "x": 207.085922,
+        "y": 16.407,
+        "z": 34.0613365
+      },
+      "lootContainer": {
+        "name": "Wooden ammo box",
+        "normalizedName": "wooden-ammo-box"
+      }
+    },
+    {
+      "position": {
+        "x": 185.630859,
+        "y": 21.7869987,
+        "z": 93.7902
+      },
+      "lootContainer": {
+        "name": "Wooden crate",
+        "normalizedName": "wooden-crate"
+      }
+    },
+    {
+      "position": {
+        "x": -14.673996,
+        "y": 24.1716,
+        "z": 91.983
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 2.79999924,
+        "y": 24.3483,
+        "z": 59.442
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": -3.66320038,
+        "y": 24.401,
+        "z": 84.5851
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 191.142014,
+        "y": 16.413,
+        "z": 69.46
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 93.2,
+        "y": 14.1727,
+        "z": 141.189
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 107.977,
+        "y": 12.408,
+        "z": 49.454
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 143.041,
+        "y": 14.061,
+        "z": 66.425
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 157.111,
+        "y": 17.628,
+        "z": 60.214
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 0.480999,
+        "y": 24.3483,
+        "z": 18.9780045
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.5775,
+        "y": 14.337081,
+        "z": 116.9411
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 54.36,
+        "y": 14.555,
+        "z": -29.3099976
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 83.811,
+        "y": 14.15408,
+        "z": 182.048
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 97.039,
+        "y": 14.41,
+        "z": -5.16200256
+      },
+      "lootContainer": {
+        "name": "Duffle bag",
+        "normalizedName": "duffle-bag"
+      }
+    },
+    {
+      "position": {
+        "x": 87.733,
+        "y": 23.091,
+        "z": -8.361
+      },
+      "lootContainer": {
+        "name": "Dead Scav",
+        "normalizedName": "dead-scav"
+      }
+    }
+  ]
+}

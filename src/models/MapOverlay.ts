@@ -48,7 +48,6 @@ export interface MapOverlayData {
   fetchedAt: string;
   transform: [number, number, number, number];
   coordinateRotation: number;
-  bounds: [[number, number], [number, number]];
   viewBox: [number, number];
   extracts: MapExtract[];
   bossZones: MapBossZone[];

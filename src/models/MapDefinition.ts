@@ -10,6 +10,18 @@ export interface MapDefinition {
 
     credit?: MapCredit;
     overlay?: MapOverlayData;
+    /**
+     * Older, non-to-scale poster-art renders of this same map, offered as a switchable
+     * alternative to the primary (flat, overlay-capable) image. Never carry overlay data —
+     * they aren't calibrated for it — so switching to one hides the overlay UI.
+     */
+    alternates?: MapAlternate[];
+}
+
+export interface MapAlternate {
+    name: string;
+    img: string;
+    credit?: MapCredit;
 }
 
 export interface MapCredit {

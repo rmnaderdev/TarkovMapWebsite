@@ -36,7 +36,14 @@ export default async function MapPage({ params }: { params: Promise<{ slug: stri
   return (
     <>
       <h1 className="page-heading">{map.name}</h1>
-      <MapContainer key={slug} mapUrl={map.img} mapCredit={map.credit} overlay={map.overlay} />
+      <MapContainer
+        key={slug}
+        storageKey={slug}
+        mapUrl={map.img}
+        mapCredit={map.credit}
+        overlay={map.overlay}
+        alternates={map.alternates}
+      />
     </>
   );
 }

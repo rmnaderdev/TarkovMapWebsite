@@ -54,19 +54,33 @@ async function fetchMapConfig() {
   return config;
 }
 
+// Target long-edge raster size for the *interactive* map view. The SVG's own
+// viewBox (the coordinate space its paths are authored in) is often tiny —
+// e.g. Factory is only 130x141 units — and <img> rasterizes an SVG at exactly
+// its declared width/height, with ol never re-rasterizing on zoom afterwards.
+// Bumping width/height scales the vector content up for free (same paths,
+// same file size) instead of shipping a blurry map.
+const TARGET_LONG_EDGE = 3000;
+
 async function fetchSvg(svgPath) {
   const res = await fetch(svgPath);
   let svg = await res.text();
 
   const viewBoxMatch = svg.match(/viewBox="([\d.\s-]+)"/);
   if (!viewBoxMatch) throw new Error("SVG has no viewBox — cannot determine dimensions");
-  const [, , width, height] = viewBoxMatch[1].trim().split(/\s+/).map(Number);
+  const [, , nativeWidth, nativeHeight] = viewBoxMatch[1].trim().split(/\s+/).map(Number);
 
-  // Ensure the <svg> root has explicit width/height so <img> intrinsic sizing
-  // (naturalWidth/naturalHeight, used by MapContainer) is reliable across browsers.
-  if (!/<svg[^>]*\swidth="/.test(svg)) {
-    svg = svg.replace("<svg ", `<svg width="${width}" height="${height}" `);
-  }
+  const scale = TARGET_LONG_EDGE / Math.max(nativeWidth, nativeHeight);
+  const width = Math.round(nativeWidth * scale);
+  const height = Math.round(nativeHeight * scale);
+
+  // Force explicit width/height on the <svg> root (replacing any that exist)
+  // so raster output size — and thus <img> naturalWidth/naturalHeight, which
+  // MapContainer/mapProjection rely on — is exactly what we intend.
+  svg = svg
+    .replace(/<svg([^>]*)\swidth="[^"]*"/, "<svg$1")
+    .replace(/<svg([^>]*)\sheight="[^"]*"/, "<svg$1")
+    .replace("<svg ", `<svg width="${width}" height="${height}" `);
 
   return { svg, width, height };
 }
@@ -80,7 +94,10 @@ const overlay = {
   fetchedAt: new Date().toISOString(),
   transform: mapConfig.transform,
   coordinateRotation: mapConfig.coordinateRotation ?? 0,
-  bounds: mapConfig.bounds,
+  // Deliberately not using mapConfig.bounds here: it's tarkov.dev's own pan-limit
+  // metadata and was found to be stale/wrong for at least one map (Terminal),
+  // disjoint from where the map's real data raw-projects to. The app calibrates
+  // from the actual marker positions instead — see mapProjection.ts.
   viewBox: [width, height],
   extracts: mapData.extracts,
   bossZones,

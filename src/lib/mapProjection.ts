@@ -1,7 +1,6 @@
 export interface MapProjectionConfig {
   transform: [number, number, number, number];
   coordinateRotation: number;
-  bounds: [[number, number], [number, number]];
   viewBox: [number, number];
 }
 
@@ -17,14 +16,24 @@ export interface WorldPosition {
  *
  * tarkov.dev's `transform`/`coordinateRotation` produce coordinates in their own
  * tile-pixel space, not the SVG's viewBox units, so the raw projection is
- * rescaled against the map's published `bounds` (projected through the same
- * formula) to fill the actual viewBox. See src/data/mapOverlays/*.json for the
- * per-map constants this takes.
+ * rescaled to fill the actual viewBox. That rescale is calibrated from the
+ * bounding box of `calibrationPositions` — the map's own marker data — rather
+ * than tarkov.dev's published `bounds` field: bounds turned out to be stale for
+ * at least one map (Terminal), disjoint from where its real marker data
+ * raw-projects to, which put every marker off-canvas. Calibrating from the data
+ * itself is self-correcting regardless of whether that metadata is right.
  */
-export function createWorldToPixelProjector(config: MapProjectionConfig) {
-  const { transform, coordinateRotation, bounds, viewBox } = config;
+export function createWorldToPixelProjector(
+  config: MapProjectionConfig,
+  calibrationPositions: WorldPosition[],
+) {
+  const { transform, coordinateRotation, viewBox } = config;
   const [a, b, c, d] = transform;
   const [viewBoxWidth, viewBoxHeight] = viewBox;
+
+  if (calibrationPositions.length === 0) {
+    throw new Error("createWorldToPixelProjector requires at least one calibration position");
+  }
 
   const rad = (coordinateRotation * Math.PI) / 180;
   const cos = Math.cos(rad);
@@ -36,12 +45,13 @@ export function createWorldToPixelProjector(config: MapProjectionConfig) {
     return [a * rotatedX + b, -c * rotatedY + d];
   };
 
-  const [c1x, c1y] = rawProject({ x: bounds[0][0], z: bounds[0][1] });
-  const [c2x, c2y] = rawProject({ x: bounds[1][0], z: bounds[1][1] });
-  const minX = Math.min(c1x, c2x);
-  const maxX = Math.max(c1x, c2x);
-  const minY = Math.min(c1y, c2y);
-  const maxY = Math.max(c1y, c2y);
+  const rawPoints = calibrationPositions.map(rawProject);
+  const xs = rawPoints.map(([x]) => x);
+  const ys = rawPoints.map(([, y]) => y);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
   const scale = (viewBoxWidth / (maxX - minX) + viewBoxHeight / (maxY - minY)) / 2;
   const rawCenterX = (minX + maxX) / 2;
   const rawCenterY = (minY + maxY) / 2;

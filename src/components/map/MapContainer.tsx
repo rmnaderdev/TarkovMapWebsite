@@ -19,7 +19,7 @@ import Rotate from "ol/control/Rotate";
 import Zoom from "ol/control/Zoom";
 import ZoomSlider from "ol/control/ZoomSlider";
 import "ol/ol.css";
-import { MapCredit } from "@/models/MapDefinition";
+import { MapAlternate, MapCredit } from "@/models/MapDefinition";
 import { MapOverlayData } from "@/models/MapOverlay";
 import { createWorldToPixelProjector } from "@/lib/mapProjection";
 
@@ -27,6 +27,9 @@ interface MapContainerProps {
   mapUrl: string;
   mapCredit?: MapCredit;
   overlay?: MapOverlayData;
+  alternates?: MapAlternate[];
+  /** Stable per-map key (route slug) used for localStorage — independent of the selected variant/mapUrl. */
+  storageKey: string;
 }
 
 type OverlayLayerKey = "extracts" | "bosses" | "hazards" | "loot";
@@ -69,22 +72,66 @@ function markerStyle(color: string, radius: number): Style {
   });
 }
 
-export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContainerProps) {
+const PRIMARY_VARIANT_ID = "primary";
+
+export default function MapContainer({
+  mapUrl,
+  mapCredit,
+  overlay,
+  alternates,
+  storageKey,
+}: MapContainerProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const overlayLayersRef = useRef<Partial<Record<OverlayLayerKey, VectorLayer<Feature<Point>>>>>({});
-  const [visibleLayers, setVisibleLayers] =
-    useState<Record<OverlayLayerKey, boolean>>(DEFAULT_VISIBLE_LAYERS);
+
+  const variants = [
+    { id: PRIMARY_VARIANT_ID, name: "Flat map", img: mapUrl, credit: mapCredit, overlay },
+    ...(alternates ?? []).map((alt, index) => ({
+      id: `alt-${index}`,
+      name: alt.name,
+      img: alt.img,
+      credit: alt.credit,
+      overlay: undefined,
+    })),
+  ];
+  // Poster art (the first alternate, if any) is the default view; the flat/overlay-capable
+  // map is opt-in via the toggle. Falls back to the flat map for maps with no alternates.
+  const defaultVariantId = variants.length > 1 ? variants[1].id : PRIMARY_VARIANT_ID;
+
+  // MapContainer remounts fresh per map (page.tsx passes key={slug}), so reading
+  // localStorage in a lazy initializer is equivalent to — but simpler than — an
+  // effect that re-syncs on storageKey change.
+  const [selectedVariantId, setSelectedVariantId] = useState(() => {
+    if (typeof window === "undefined") return defaultVariantId;
+    const stored = localStorage.getItem(`${storageKey}_variant`);
+    return stored && variants.some((v) => v.id === stored) ? stored : defaultVariantId;
+  });
+  const [visibleLayers, setVisibleLayers] = useState<Record<OverlayLayerKey, boolean>>(() => {
+    if (typeof window === "undefined") return DEFAULT_VISIBLE_LAYERS;
+    const stored = localStorage.getItem(`${storageKey}_overlayLayers`);
+    if (!stored) return DEFAULT_VISIBLE_LAYERS;
+    try {
+      return { ...DEFAULT_VISIBLE_LAYERS, ...JSON.parse(stored) };
+    } catch {
+      return DEFAULT_VISIBLE_LAYERS;
+    }
+  });
   const [hover, setHover] = useState<{ info: SelectedMarker; x: number; y: number } | null>(null);
+
+  const activeVariant = variants.find((v) => v.id === selectedVariantId) ?? variants[0];
+  const activeMapUrl = activeVariant.img;
+  const activeCredit = activeVariant.credit;
+  const activeOverlay = activeVariant.overlay;
 
   useEffect(() => {
     let cancelled = false;
     let olMap: Map | null = null;
 
-    const storedZoom = localStorage.getItem(`${encodeURIComponent(mapUrl)}_zoom`);
-    const storedCenter = localStorage.getItem(`${encodeURIComponent(mapUrl)}_center`);
+    const storedZoom = localStorage.getItem(`${encodeURIComponent(activeMapUrl)}_zoom`);
+    const storedCenter = localStorage.getItem(`${encodeURIComponent(activeMapUrl)}_center`);
 
     const img = new Image();
-    img.src = mapUrl;
+    img.src = activeMapUrl;
     img.onload = () => {
       if (cancelled || !containerRef.current) return;
 
@@ -102,8 +149,8 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
         ? JSON.parse(storedCenter)
         : [size[0] / 2, size[1] / 2];
 
-      const imgCopyright = mapCredit
-        ? `Map By <a target='_blank' href="${mapCredit.creditLink}">${mapCredit.creditText}</a>`
+      const imgCopyright = activeCredit
+        ? `Map By <a target='_blank' href="${activeCredit.creditLink}">${activeCredit.creditText}</a>`
         : undefined;
 
       const view = new View({
@@ -115,7 +162,7 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
       const layers: BaseLayer[] = [
         new ImageLayer({
           source: new ImageStatic({
-            url: mapUrl,
+            url: activeMapUrl,
             imageExtent: extent,
             projection,
             attributions: imgCopyright,
@@ -125,18 +172,24 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
 
       overlayLayersRef.current = {};
 
-      if (overlay) {
+      if (activeOverlay) {
         // worldToPixel returns image-space pixel coords (y=0 at top, growing down).
         // ol's ImageStatic imageExtent is [left, bottom, right, top] in map coords
         // (y=0 at bottom), so the y axis has to be flipped here.
-        const worldToPixel = createWorldToPixelProjector(overlay);
+        const calibrationPositions = [
+          ...activeOverlay.extracts.map((e) => e.position),
+          ...activeOverlay.bossZones.map((z) => z.position),
+          ...activeOverlay.hazards.map((h) => h.position),
+          ...activeOverlay.lootContainers.map((l) => l.position),
+        ];
+        const worldToPixel = createWorldToPixelProjector(activeOverlay, calibrationPositions);
         const toMapCoord = (position: { x: number; z: number }): [number, number] => {
           const [px, py] = worldToPixel(position);
           return [px, size[1] - py];
         };
 
         const extractsSource = new VectorSource({
-          features: overlay.extracts.map((extract) => {
+          features: activeOverlay.extracts.map((extract) => {
             const feature = new Feature({ geometry: new Point(toMapCoord(extract.position)) });
             feature.setStyle(markerStyle(EXTRACT_COLORS[extract.faction] ?? EXTRACT_COLORS.shared, 7));
             feature.set("markerInfo", {
@@ -148,7 +201,7 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
         });
 
         const bossZonesSource = new VectorSource({
-          features: overlay.bossZones.map((zone) => {
+          features: activeOverlay.bossZones.map((zone) => {
             const feature = new Feature({ geometry: new Point(toMapCoord(zone.position)) });
             feature.setStyle(markerStyle(BOSS_COLOR, 5));
             feature.set("markerInfo", {
@@ -160,7 +213,7 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
         });
 
         const hazardsSource = new VectorSource({
-          features: overlay.hazards.map((hazard) => {
+          features: activeOverlay.hazards.map((hazard) => {
             const feature = new Feature({ geometry: new Point(toMapCoord(hazard.position)) });
             feature.setStyle(markerStyle(HAZARD_COLOR, 5));
             feature.set("markerInfo", {
@@ -172,7 +225,7 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
         });
 
         const lootSource = new VectorSource({
-          features: overlay.lootContainers.map((container) => {
+          features: activeOverlay.lootContainers.map((container) => {
             const feature = new Feature({ geometry: new Point(toMapCoord(container.position)) });
             feature.setStyle(markerStyle(LOOT_COLOR, 3));
             feature.set("markerInfo", {
@@ -229,13 +282,13 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
       view.on("change:center", () => {
         const newCenter = view.getCenter();
         if (!newCenter || isNaN(newCenter[0]) || isNaN(newCenter[1])) return;
-        localStorage.setItem(`${encodeURIComponent(mapUrl)}_center`, JSON.stringify(newCenter));
+        localStorage.setItem(`${encodeURIComponent(activeMapUrl)}_center`, JSON.stringify(newCenter));
       });
 
       view.on("change:resolution", () => {
         const newZoom = view.getZoom();
         if (newZoom === undefined || isNaN(newZoom)) return;
-        localStorage.setItem(`${encodeURIComponent(mapUrl)}_zoom`, String(newZoom));
+        localStorage.setItem(`${encodeURIComponent(activeMapUrl)}_zoom`, String(newZoom));
       });
     };
 
@@ -248,19 +301,46 @@ export default function MapContainer({ mapUrl, mapCredit, overlay }: MapContaine
     // visibleLayers is intentionally excluded: its initial value seeds the layers above,
     // further changes are applied directly via the toggle effect below.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mapUrl, mapCredit, overlay]);
+  }, [activeMapUrl, activeCredit, activeOverlay]);
 
   useEffect(() => {
     for (const key of Object.keys(visibleLayers) as OverlayLayerKey[]) {
       overlayLayersRef.current[key]?.setVisible(visibleLayers[key]);
     }
-  }, [visibleLayers]);
+    localStorage.setItem(`${storageKey}_overlayLayers`, JSON.stringify(visibleLayers));
+  }, [visibleLayers, storageKey]);
+
+  function selectVariant(id: string) {
+    setSelectedVariantId(id);
+    localStorage.setItem(`${storageKey}_variant`, id);
+  }
 
   return (
     <div className="relative w-full flex-1">
       <div ref={containerRef} className="h-full w-full" />
 
-      {overlay && (
+      {variants.length > 1 && (
+        <div className="pointer-events-none absolute left-12 top-3 z-10 flex flex-col items-start gap-2">
+          <div className="pointer-events-auto flex gap-1 rounded-lg border border-olive-700 bg-base-900/90 p-1">
+            {variants.map((variant) => (
+              <button
+                key={variant.id}
+                type="button"
+                onClick={() => selectVariant(variant.id)}
+                className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
+                  variant.id === selectedVariantId
+                    ? "bg-olive-600 text-white"
+                    : "text-gray-300 hover:bg-base-800"
+                }`}
+              >
+                {variant.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {activeOverlay && (
         <div className="pointer-events-none absolute right-3 top-3 z-10 flex flex-col items-end gap-2">
           <div className="pointer-events-auto flex gap-1 rounded-lg border border-olive-700 bg-base-900/90 p-1">
             {(Object.keys(OVERLAY_LAYER_LABELS) as OverlayLayerKey[]).map((key) => (
